@@ -54,5 +54,17 @@
     <MASM Include="f12.asm">
       <Filter>Source Files\x86</Filter>
     </MASM>
+    <MASM Include="f13.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f14.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f15.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f16.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
   </ItemGroup>
 </Project>

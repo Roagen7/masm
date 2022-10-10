@@ -8,7 +8,7 @@ extern __read : proc
 extern _MessageBoxA@16 : proc
 extern _MessageBoxW@16 : proc
 extern _ExitProcess@4 : proc
-public _main
+public f12_main
 
 .data
 	len db ?
@@ -90,7 +90,7 @@ cont9:
 	ret
 to_utf endp
 
-_main proc
+f12_main proc
 	xor eax, eax
 	push 256 ; max size
 	push dword ptr offset ascii ; location
@@ -114,5 +114,5 @@ _main proc
 
 	push byte ptr 0
 	call _ExitProcess@4
-_main endp
+f12_main endp
 end
