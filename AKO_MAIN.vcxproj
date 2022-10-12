@@ -150,7 +150,13 @@
     <MASM Include="f14.asm" />
     <MASM Include="f15.asm" />
     <MASM Include="f16.asm" />
+    <MASM Include="f17.asm" />
+    <MASM Include="f18.asm" />
+    <MASM Include="f19.asm" />
     <MASM Include="f2.asm" />
+    <MASM Include="f20.asm" />
+    <MASM Include="f21.asm" />
+    <MASM Include="f22.asm" />
     <MASM Include="f3.asm" />
     <MASM Include="f4.asm" />
     <MASM Include="f5.asm" />

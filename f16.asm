@@ -5,7 +5,7 @@
 
 extern _ExitProcess@4 : PROC
 extern _MessageBoxW@16 : PROC
-public _main
+public f16_main
 
 .data
 buff	db	50H, 6FH, 0C5H, 82H, 0C4H, 85H, 63H, 7AH
@@ -19,7 +19,7 @@ buff2 db 050H, 04FH, 0C4H, 085H, 0E0H , 0A4H , 0B9H
 output	dw	37 dup (0)	
 
 .code
-_main PROC
+f16_main PROC
 	mov edx, 33
 	mov esi, dword ptr offset buff
 	mov ecx, 0
@@ -93,5 +93,5 @@ continue:
 	push 0
 	call _ExitProcess@4
 
-_main ENDP
+f16_main ENDP
 END
