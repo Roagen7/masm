@@ -84,5 +84,50 @@
     <MASM Include="f22.asm">
       <Filter>Source Files\x86</Filter>
     </MASM>
+    <MASM Include="f23.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f24.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f25.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f26.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f27.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f28.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f29.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f30.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f31.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f32.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f33.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f34.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f35.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f36.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
+    <MASM Include="f37.asm">
+      <Filter>Source Files\x86</Filter>
+    </MASM>
   </ItemGroup>
 </Project>

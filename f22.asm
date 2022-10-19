@@ -6,7 +6,7 @@
 extern _ExitProcess@4 : PROC
 extern _MessageBoxW@16 : PROC
 
-public _main
+public f22_main
 
 .data
 textBE db 00H, 061H, 00H, 062H, 00H, 063H ; text in utf16 (little endian)
@@ -15,7 +15,7 @@ textLE db 13 dup(0)
 
 .code 
 
-_main PROC
+f22_main PROC
 
 	mov ecx, 0
 lp:
@@ -39,5 +39,5 @@ lp:
 	push dword ptr 0
 	call _ExitProcess@4
 
-_main ENDP
+f22_main ENDP
 END
